@@ -15,8 +15,8 @@ class Launcher{
         this.launcher.bodyA = null;
     }
 
-    attach(){
-        this.launcher.bodyA = bodyA;
+    attach(body){
+        this.launcher.bodyA = body;
     }
 
     display(){
